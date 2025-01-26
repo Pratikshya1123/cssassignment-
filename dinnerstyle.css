@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f3f3; /* Black background */
+    color: #050000; /* White text */
+    line-height: 1.6;
+}
+
+h1, h2,h3  {
+text-align: center;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #c72424; /* Default black background */
+    border-bottom: 2px solid #fff;
+    position: relative;
+}
+
+/* Logo and H1 in Red Background */header .logo-container {
+
+    display: flex;
+    align-items: center;
+    
+    padding: 10px;
+    border-radius: 5px;
+}
+
+header .logo-container img {
+    max-height: 100px; 
+    margin-right: 10px;
+}
+
+header .logo-container h1 {
+    flex-grow: 1;
+    width: 100px;
+    text-align:center;
+    margin: 0;
+    color: #0b0101; 
+}
+
+/* Navigation Menu */
+.navi {
+    margin-top: 1px; 
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.navi ul {
+    list-style: none;
+    margin: 2px;
+    padding: 0;
+    display: flex;
+}
+
+.navi ul li {
+    
+    margin: 5px 15px;
+}
+
+.navi ul li a {
+    color: #0b0101; 
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+.navi ul li a:hover {
+    background-color: #fff; 
+    color: #000; 
+    font-size: 25px; 
+    color: #7a6618; 
+}
+
+
+button {
+    
+    background-color: #fff; 
+    color: #0e0101; 
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block; 
+    margin: 20px auto; 
+    text-align: center; 
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+
+}
+
+button:hover{
+    background-color: #787272; 
+    color: #fff; 
+    border-color: #ccc; 
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #3a3737; 
+    text-align: center;
+    padding: 20px;
+    color: #ccc; 
+    font-size: 14px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #ccc; 
+}
+
+img {
+    margin-top: auto;
+}

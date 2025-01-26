@@ -1,0 +1,172 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 20px;
+    color: #ccc; /* Light gray for paragraph text */
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ccc; /* Light gray on hover */
+}
+
+/* Section Styling */
+section {
+    padding: 40px 20px;
+    margin: 20px;
+    background-color: #111; /* Dark gray background for sections */
+    border: 1px solid #fff; /* White border */
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+section:hover {
+    transform: scale(1.02); /* Slight zoom on hover */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* White shadow on hover */
+}
+
+/* Button Styles */
+button, .button {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    margin: 10px auto;
+    display: block;
+}
+
+button:hover, .button:hover {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    border-color: #ccc; /* Light gray border */
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #fff; /* White border */
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* White shadow */
+}
+
+/* List Styles */
+ul, ol {
+    margin: 20px;
+    padding: 0 20px;
+    color: #ccc; /* Light gray text */
+}
+
+li {
+    margin: 10px 0;
+}
+
+li:hover {
+    color: #fff; /* White on hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #111; /* Slightly lighter black */
+    text-align: center;
+    padding: 20px;
+    color: #ccc; /* Light gray text */
+    font-size: 14px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #ccc; /* Light gray on hover */
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #222; /* Dark gray background */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+}
+
+/* About Content */
+.about-container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #111; /* Slightly lighter black */
+    border: 1px solid #fff; /* White border */
+    border-radius: 10px;
+    color: #ccc; /* Light gray text */
+    text-align: center;
+}
+
+.about-container h2 {
+    color: #fff;
+}
+
+.about-container p {
+    margin-top: 10px;
+}
+
+/* Quote Styling */
+blockquote {
+    margin: 20px;
+    padding: 20px;
+    background-color: #222; /* Dark gray */
+    color: #fff; /* White text */
+    border-left: 5px solid #fff; /* White border */
+    font-style: italic;
+}
+
+blockquote:hover {
+    background-color: #333; /* Slightly lighter gray */
+    border-left: 5px solid #ccc; /* Light gray border on hover */
+}
